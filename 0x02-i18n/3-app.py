@@ -31,7 +31,7 @@ def get_locale() -> Union[str, None]:
 
 @app.route('/')
 def index():
-    """ Renders 2-index.html page """
+    """ Renders 3-index.html page """
     return render_template('3-index.html')
 
 
